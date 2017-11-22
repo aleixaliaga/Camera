@@ -47,11 +47,10 @@
         
 <!--PAGINA HOME-->
 <div data-role="page" id="home">
-  <div data-role="panel" id="myPanel"> 
+  <div data-role="panel" data-display="reveal" id="myPanel"> 
     <h2>Camera</h2>
 <button id="camera"><a href="#pageone" class="ui-btn ui-icon-camera ui-btn-icon-right ui-corner-all">Camera</a></button>
-<a href="#pagetwo" class="ui-btn ui-icon-action ui-btn-icon-right ui-corner-all">Save</a>
-<a href="#pagethree" class="ui-btn ui-icon-grid ui-btn-icon-right ui-corner-all">Gallery</a>   
+   
   </div> 
   <div data-role="header">
     <h1>Camera App</h1>
@@ -59,7 +58,7 @@
   </div>
   <div data-role="main" class="ui-content">
     <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Menu</a>
-	<center><h3>Welcome to my camera App</h3></center>
+	<h3>My first camera App</h3>
   </div>
   <div data-role="footer">
     <h1>Aleix Aliaga</h1>
@@ -69,11 +68,10 @@
 
 <!--PAGINA TAKE A PICTURE-->
 <div data-role="page" id="pageone">
-  <div data-role="panel" id="myPanel"> 
+  <div data-role="panel" data-display="reveal" id="myPanel"> 
     <h2>Camera</h2>
 <button id="camera"><a href="#pageone" class="ui-btn ui-icon-camera ui-btn-icon-right ui-corner-all">Camera</a></button>
-<a href="#pagetwo" class="ui-btn ui-icon-action ui-btn-icon-right ui-corner-all">Save</a>
-<a href="#pagethree" class="ui-btn ui-icon-grid ui-btn-icon-right ui-corner-all">Gallery</a> 
+
   </div> 
   <div data-role="header">
     <h1>Camera App</h1>
@@ -90,56 +88,11 @@
 </div> 
 
 
-<!--PAGINA SAVE A PICTURE-->
-<div data-role="page" id="pagetwo">
-
-  <div data-role="panel" id="myPanel"> 
-    <h2>Camera</h2>
-<button id="camera"><a href="#pageone" class="ui-btn ui-icon-camera ui-btn-icon-right ui-corner-all">Camera</a></button>
-<a href="#pagetwo" class="ui-btn ui-icon-action ui-btn-icon-right ui-corner-all">Save</a>
-<a href="#pagethree" class="ui-btn ui-icon-grid ui-btn-icon-right ui-corner-all">Gallery</a> 
-  </div> 
-  
-  <div data-role="header">
-  <a href="#home" class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
-    <h1>Camera App</h1>
-  </div>
-  <div data-role="main" class="ui-content">
-    <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Menu</a>
-	<a href="#myPopup" data-rel="popup" class="ui-btn ui-icon-action ui-btn-inline ui-corner-all" style="background: lightblue; color: black;">Save Image</a>
-    <div data-role="popup" id="myPopup" class="ui-content" data-overlay-theme="b">
-      <h4><p>Image saved succesfully!</p></h4>
-    </div>
-  </div>
-  
-  
-  <div data-role="footer">
-    <h1>Aleix Aliaga</h1>
-  </div> 
-  </div>
 
 
 
-<!--PAGINA SHOW GALLERY-->
-<div data-role="page" id="pagethree">
-  <div data-role="panel" id="myPanel"> 
-    <h2>Camera</h2>
-<a href="#pageone" class="ui-btn ui-icon-camera ui-btn-icon-right ui-corner-all">Camera</a>
-<a href="#pagetwo" class="ui-btn ui-icon-action ui-btn-icon-right ui-corner-all">Save</a>
-<a href="#pagethree" class="ui-btn ui-icon-grid ui-btn-icon-right ui-corner-all">Gallery</a>  
-  </div> 
-  <div data-role="header">
-  <a href="#home" class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
-    <h1>Camera App</h1>
-  </div>
-  <div data-role="main" class="ui-content">
-    <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Menu</a>
-	<p><center>GALLERY</center></p>
-  </div>
-  <div data-role="footer">
-    <h1>Aleix Aliaga</h1>
-  </div> 
-</div>
+
+
 
 
         <script type="text/javascript" src="cordova.js"></script>
