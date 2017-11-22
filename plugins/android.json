@@ -1,0 +1,21 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.aleix.camera"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.aleix.camera"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.aleix.camera"
+    }
+  },
+  "dependent_plugins": {}
+}
