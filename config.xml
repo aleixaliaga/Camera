@@ -16,6 +16,14 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <platform name="android">
+        <splash density="land-hdpi" src="res/screen/android/cargando.png" />
+        <splash density="land-ldpi" src="res/screen/android/cargando.png" />
+        <splash density="land-mdpi" src="res/screen/android/cargando.png" />
+        <splash density="land-xhdpi" src="res/screen/android/cargando.png" />
+        <splash density="port-hdpi" src="res/screen/android/cargando.png" />
+        <splash density="port-ldpi" src="res/screen/android/cargando.png" />
+        <splash density="port-mdpi" src="res/screen/android/cargando.png" />
+        <splash density="port-xhdpi" src="res/screen/android/cargando.png" />
         <allow-intent href="market:*" />
     </platform>
     <platform name="ios">
